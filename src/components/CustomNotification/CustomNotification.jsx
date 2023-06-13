@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './CustomNotification';
+import './CustomNotification.css';
 
 const CustomNotification = ({ message }) => {
   return <p className="notification_text">{message}</p>;
